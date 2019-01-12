@@ -35,3 +35,28 @@ print("y assigned 12E4 and prints...")
 print(y)
 print("z assigned -87.7e100 and prints...")
 print(z)
+
+#What the heck are complex numbers with this j stuff in them?
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print()
+print("Testing complext numbers printing")
+print("x assigned 3+5j and prints...")
+print(x)
+print("y assigned 5j and prints...")
+print(y)
+print("z assigned -5j and prints...")
+print(z)
+
+print()
+print("Testing substring stuff")
+
+s = "0123456789"
+print(s)
+print("Print from position '3', which should be 3, because both of us started at 0")
+print(s[3])
+print("print from position 2 to 5, which will be?")
+print(s[2:5])
