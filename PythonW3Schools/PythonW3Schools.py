@@ -60,3 +60,11 @@ print("Print from position '3', which should be 3, because both of us started at
 print(s[3])
 print("print from position 2 to 5, which will be?")
 print(s[2:5])
+
+print("Enter your name:")
+name = input()
+print("Hello, " + name)
+
+Yello = "If you see this, var Yello, did not work as expected!:"
+Yello = input("Putname again, testing asking using the input() function\n")
+print("Testing var Yello: " + Yello)
