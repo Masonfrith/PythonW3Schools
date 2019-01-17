@@ -61,16 +61,23 @@ print(s[3])
 print("print from position 2 to 5, which will be?")
 print(s[2:5])
 
-print("Enter your name:")
-name = input()
-print("Hello, " + name)
+#print("Enter your name:")
+#name = input()
+#print("Hello, " + name)
 
-Yello = "If you see this, var Yello, did not work as expected!:"
-Yello = input("Putname again, testing asking using the input() function\n")
-print("Testing var Yello: " + Yello)
+#Yello = "If you see this, var Yello, did not work as expected!:"
+#Yello = input("Putname again, testing asking using the input() function\n")
+#print("Testing var Yello: " + Yello)
 
 print("Testing the strip command for whitespace")
 x = "       so much space!\n\n\n\n\n\n\n"
 print(x)
 x = x.strip()
 print(x)
+
+print("Testing lists")
+
+x = "Lets turn this string in to a list!"
+print(x)
+listx = x.split()
+print(listx)
