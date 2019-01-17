@@ -89,3 +89,17 @@ for item in listx : print(item)
 
 ran = random.randint(0,len(listx))
 print("The random word today is!\n" + listx[ran])
+
+numlist = [0,1,2,3,4,5,6,7,8,9]
+for i in numlist :
+    numlist[i] = str(numlist[i])
+print("testing more list stuff with the following BASE list of num:\n" + str(numlist))
+
+numlist.insert(9,10)
+print(str(numlist))
+numlist.insert(11,11)
+print(str(numlist))
+numlist.append(12)
+print(str(numlist))
+numlist.insert(15,111)
+print(str(numlist))
