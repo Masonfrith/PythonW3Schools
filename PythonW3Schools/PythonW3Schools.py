@@ -1,3 +1,6 @@
+import random
+
+
 #testing short comments
 """ Testing a longer comment
 that is multi line. """
@@ -81,3 +84,8 @@ x = "Lets turn this string in to a list!"
 print(x)
 listx = x.split()
 print(listx)
+
+for item in listx : print(item)
+
+ran = random.randint(0,len(listx))
+print("The random word today is!\n" + listx[ran])
