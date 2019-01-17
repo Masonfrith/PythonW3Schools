@@ -103,3 +103,10 @@ numlist.append(12)
 print(str(numlist))
 numlist.insert(15,111)
 print(str(numlist))
+
+#testing a neat thing I found for changing how the print statement ends the line
+endTest = "Normal Print?"
+print(endTest)
+print(endTest, end = "")
+print("is this a new line or no?")
+print(endTest, end = "CAN OTHER GO HERE?")
